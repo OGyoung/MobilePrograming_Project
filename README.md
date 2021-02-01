@@ -1,1 +1,1 @@
-# MobilePrograming_Project
+# 모바일프로그래밍 기말고사 프로젝트-이미지 편집 앱 
