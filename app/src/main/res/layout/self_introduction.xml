@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF00"
+    android:orientation="vertical"
+    android:layout_weight="3">
+    <Button
+        android:id="@+id/btnReturn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기" />
+
+    <Button
+        android:id="@+id/btnReturn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자기 소개" />
+
+    <EditText
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:lines="8"/>
+</LinearLayout>

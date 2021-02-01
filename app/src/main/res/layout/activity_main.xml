@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/btnSelfIntroduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자기 소개서" />
+    <Button
+        android:id="@+id/btnSimpleDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="간단한 일기장" />
+    <Button
+        android:id="@+id/btnClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="아날로그 시계와 디지털 시계" />
+    <Button
+        android:id="@+id/btnMp3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오디오 - mp3음악 파일 듣기" />
+    <Button
+        android:id="@+id/btnProject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:textSize="20dp"
+        android:text="프로젝트"/>
+</LinearLayout>

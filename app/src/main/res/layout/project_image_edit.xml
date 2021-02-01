@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="돌아가기"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btnDraw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#000000"
+            android:text="그림판"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pictureLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/idScale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/resize"/>
+
+        <ImageButton
+            android:id="@+id/idBright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/bright"/>
+        <ImageButton
+            android:id="@+id/idRight_Rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/right_rotate"/>
+        <ImageButton
+            android:id="@+id/idLeft_Rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/left_rotate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idText_Seek_Info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  "
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <SeekBar
+                android:id="@+id/idScale_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="200"
+                android:progress="100"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb"
+                android:visibility="invisible"/>
+
+            <SeekBar
+                android:id="@+id/idBright_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="200"
+                android:progress="100"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb"
+                android:visibility="invisible"/>
+
+            <SeekBar
+                android:id="@+id/idRightRotate_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="365"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb"
+                android:visibility="invisible"/>
+
+            <SeekBar
+                android:id="@+id/idLeftRotate_SeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="365"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/seekbar_thumb"
+                android:visibility="invisible"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
