@@ -2,6 +2,7 @@
 스마트폰에서 제공하는 사진 편집기능을 구현
 
 ![화면1](https://user-images.githubusercontent.com/52282493/107151435-ee17f580-69a5-11eb-8790-e81e3d3f6947.gif)
+![화면2](https://user-images.githubusercontent.com/52282493/107151494-346d5480-69a6-11eb-91f9-eb08094fbf05.gif)
 
 
 
